@@ -75,28 +75,12 @@ function IdeaCard({ idea, index }: { idea: ActivationIdea; index: number }) {
               </p>
             </div>
 
-            <div className="mt-5 pt-5 border-t border-gray-100">
-              <p className="text-base leading-relaxed text-gray-700">
-                <span className="font-semibold text-brand-dark">Objective: </span>
-                {idea.objective}
-              </p>
-            </div>
-
             <div className="mt-4 pt-4 border-t border-gray-100">
               <p className="text-base leading-relaxed text-gray-700">
                 <span className="font-semibold text-brand-dark">Scenario: </span>
                 {idea.scenario}
               </p>
             </div>
-
-            <ul className="mt-4 pt-4 border-t border-gray-100 space-y-2.5">
-              {idea.bullets.map((bullet) => (
-                <li key={bullet} className="flex items-start gap-2.5">
-                  <span className="mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-brand-dark" />
-                  <span className="text-base leading-relaxed text-gray-700">{bullet}</span>
-                </li>
-              ))}
-            </ul>
 
             <div className="mt-6 pt-5 border-t border-gray-100">
               <ImagePlaceholder label={idea.name} src={ideaImages[idea.id]} />
