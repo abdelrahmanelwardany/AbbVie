@@ -1,4 +1,5 @@
 import ebersLogo from '../../imgs/Ebers.png';
+import abbvieLogo from '../../imgs/abbvie.jpeg';
 
 export default function Header() {
   return (
@@ -7,11 +8,13 @@ export default function Header() {
         <img
           src={ebersLogo}
           alt="Ebers"
-          className="h-10 w-10 sm:h-12 sm:w-12 rounded-lg object-contain"
+          className="h-10 w-10 sm:h-16 sm:w-16 rounded-lg object-contain"
         />
-        <p className="text-sm sm:text-base font-medium text-white/90 text-right">
-          AbbVie 
-        </p>
+        <img
+          src={abbvieLogo}
+          alt="AbbVie"
+          className="h-10 w-10 sm:h-20 sm:w-20 rounded-lg object-contain"
+        />
       </div>
     </header>
   );

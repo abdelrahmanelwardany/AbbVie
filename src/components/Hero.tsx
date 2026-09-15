@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/50">
           <span>Prepared by Ebers</span>
           <span className="hidden sm:inline text-white/20">|</span>
-          <span>Scope: Congress &amp; HCP Event Activations</span>
+          <span>Scope: Congress &amp; HCP Event Activations and digital activations</span>
           <span className="hidden sm:inline text-white/20">|</span>
           <span>September 2026</span>
         </div>

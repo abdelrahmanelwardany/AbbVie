@@ -10,6 +10,12 @@ import thirdImage from '../../imgs/third.jpeg';
 import fourthImage from '../../imgs/foruth.png';
 import fifthImage from '../../imgs/fifth.jpeg';
 import sixthImage from '../../imgs/sixth.jpeg';
+import seventhImage from '../../imgs/seventh.jpeg';
+import eighthImage from '../../imgs/eight.jpeg';
+import ninthImage from '../../imgs/ninth.jpeg';
+import tenthImage from '../../imgs/tenth.jpeg';
+import eleventhImage from '../../imgs/eleventh.jpeg';
+import twelfthImage from '../../imgs/twelfth.jpeg';
 
 const ideaImages: Record<number, string> = {
   1: firstImage,
@@ -18,10 +24,16 @@ const ideaImages: Record<number, string> = {
   4: fourthImage,
   5: fifthImage,
   6: sixthImage,
+  7: seventhImage,
+  8: eighthImage,
+  9: ninthImage,
+  10: tenthImage,
+  11: eleventhImage,
+  12: twelfthImage,
 };
 
 function IdeaCard({ idea, index }: { idea: ActivationIdea; index: number }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(index === 0);
   const contentRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
 
@@ -56,9 +68,11 @@ function IdeaCard({ idea, index }: { idea: ActivationIdea; index: number }) {
             <div className="pt-2 border-t border-brand-dark/10" />
 
             <div className="pt-4">
-              <span className="inline-block text-xs font-semibold uppercase tracking-[0.15em] bg-brand-dark/8 text-brand-dark px-3 py-1.5 rounded-full">
-                {idea.type}
-              </span>
+              <p className="text-base leading-relaxed text-gray-700">
+                <span className="font-semibold text-brand-dark">
+                Type: </span>
+              {idea.type}
+              </p>
             </div>
 
             <div className="mt-5 pt-5 border-t border-gray-100">

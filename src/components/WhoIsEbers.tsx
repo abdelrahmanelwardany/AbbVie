@@ -13,7 +13,7 @@ export default function WhoIsEbers() {
         <Reveal delay={100}>
           <div className="mt-8 space-y-6 text-base sm:text-lg leading-relaxed text-gray-700">
             <p>
-              Ebers is an immersive digital experience agency specializing in VR, AR,
+              Ebers is an immersive digital experience company specializing in VR, AR,
               3D, and interactive content. Founded in 2014, we partner with global
               healthcare and pharmaceutical brands to create memorable, technology-driven
               engagements that resonate with healthcare professionals and patients alike.

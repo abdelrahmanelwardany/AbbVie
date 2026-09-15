@@ -12,12 +12,7 @@ export default function Objective() {
         </Reveal>
         <Reveal delay={100}>
           <p className="mt-8 text-base sm:text-lg leading-relaxed text-gray-700">
-            The objective of this proposal is to present simple, high-level, and
-            practical event activation concepts — not product-specific — that AbbVie's
-            Hematology team can deploy at congresses and HCP events to create more
-            engaging, memorable interactions with healthcare professionals. Each concept
-            is designed to be adaptable, scalable, and executable within typical event
-            timelines and footprints.
+            The objective of this proposal is to present simple, high-level, and practical engagement concepts — that AbbVie’s Hematology team can use across congresses, HCP events, and digital touchpoints to create more engaging and memorable interactions with healthcare professionals. Each concept is designed to be adaptable, scalable, and practical to implement across different engagement formats, timelines, and environments.
           </p>
         </Reveal>
         <Reveal delay={200}>

@@ -20,7 +20,7 @@ export default function CallToAction() {
           needs — let's find 30 minutes to discuss next steps.
         </p>
         <a
-          href="mailto:hello@ebers.com"
+          href="https://wa.me/971582618494"
           className="mt-10 inline-flex items-center justify-center bg-white text-brand-dark font-semibold text-base sm:text-lg px-8 py-3.5 rounded-lg shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_50px_rgba(255,255,255,0.25)] hover:scale-[1.03] transition-all duration-300"
         >
           Get in Touch

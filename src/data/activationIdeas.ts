@@ -11,8 +11,8 @@ export type ActivationIdea = {
 export const activationIdeas: ActivationIdea[] = [
   {
     id: 1,
-    name: 'Hit the TargeT',
-    type: 'web experience',
+    name: 'Shooting game: Hit the Target',
+    type: 'Interactive Web Experience',
     objective:
       'Make Venetoclax’s BCL-2 mechanism simple, memorable, and interactive',
     scenario:
@@ -25,7 +25,7 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 2,
-    name: 'Build the Connection',
+    name: 'Build the Connection - AR',
     type: 'AR Mechanism Experience',
     objective:
       'Visualize Epkinly’s bispecific mechanism by showing how it connects the T-cell to the cancer B-cell and activates the immune response.',
@@ -39,7 +39,7 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 3,
-    name: 'Ask the Mechanism',
+    name: 'Ask the Mechanism - AI Hologram',
     type: 'AI Virtual Hematologist',
     objective:
       'Create an interactive AI-powered holographic hematologist that provides HCPs with quick, conversational access to key Epkinly information. ',
@@ -53,7 +53,7 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 4,
-    name: 'The Invisible Battle',
+    name: 'The Invisible Battle - Hologram',
     type: 'Hologram Experience',
     objective:
       'Reveal the invisible battle happening between the immune system and cancer through an immersive holographic visualization of Epkinly’s MOA.',
@@ -67,8 +67,8 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 5,
-    name: 'AI Clinical Companion',
-    type: 'AI Chatbot',
+    name: 'AI Clinical Companion - AI Chatbot',
+    type: 'AI Chatbot(Whatsapp)',
     objective:
       'Provide HCPs with a fast, conversational AI companion for exploring approved Venetoclax information, mechanism, clinical evidence, and safety.',
     scenario:
@@ -92,89 +92,88 @@ export const activationIdeas: ActivationIdea[] = [
       'Extend HCP engagement: Keep the conversation going beyond the event with a connected digital content journey.',
       'Maximum content value: Repurpose each core asset across multiple touchpoints for consistent, long-term brand visibility.',
     ],
-  },/*
+  },
   {
     id: 7,
-    name: 'Gesture-Driven Storyboard',
-    type: 'Congress Booth Experience',
+    name: 'INSIDE THE BCL-2 POCKET - AR',
+    type: 'AR Experience',
     objective:
-      'Let HCPs navigate a visual story using hand gestures, creating a sense of agency and playfulness.',
+      'Allow HCPs to explore the VENCLYXTO® mechanism at the molecular level through an interactive AR visualization.',
     scenario:
-      'An HCP stands before a large screen equipped with motion sensors. Waving their hand scrolls through a storyboard of themed visuals. The novelty of gesture control creates an immediate sense of engagement.',
+      'HCPs scan a VENCLYXTO® marker, triggering a 3D BCL-2 molecular structure to appear directly on the desk through AR. They can rotate and zoom into the structure to explore the BCL-2 binding pocket, where venetoclax is visualized occupying its target site. The experience then expands from the molecular interaction to the biological impact: release of apoptotic signaling. ',
     bullets: [
-      'Novel interaction model — memorable and shareable',
-      'No device needed — purely spatial interaction',
-      'Content modules can be swapped per therapeutic area',
+      'Makes complex molecular science tangible through interactive 3D exploration.',
+      'Creates a memorable scientific experience around the VENCLYXTO® MOA.',
     ],
   },
   {
     id: 8,
-    name: 'Virtual Walkthrough Station',
-    type: 'Hybrid Engagement',
+    name: 'Email-to-Experience Journey',
+    type: 'Interactive CRM Journey / Personalized HCP Digital Experience / Email + Landing Page Experience',
     objective:
-      'Offer a VR-based walkthrough of a themed environment that HCPs can explore at their own pace.',
+      'Turn the email campaign from a standard communication sequence into a series of short digital experiences, making AbbVie’s hematology communication feel more interactive, and memorable.',
     scenario:
-      'An HCP puts on a headset and is guided through a virtual environment themed around the therapeutic area. The experience lasts 3–4 minutes and ends with a summary screen. Staff follow up with a brief conversation.',
+      'Each email is only the entry point. Instead of opening to a long medical message, the HCP receives one strong question, visual, or scientific hook related to either VENCLYXTO® or TEPKINLY®.\n The CTA opens a lightweight branded micro-experience or a landing page where the HCP can interact with the science—for example:\n rotate a BCL-2 structure, reveal the apoptosis pathway, connect CD3 to CD20, explore the immune synapse, move through the step-up/ramp-up journey, or unlock clinical evidence.\n ',
     bullets: [
-      'Full immersion — deep engagement in a short window',
-      'Self-guided — HCPs explore at their comfort level',
-      'Portable setup — can be deployed across multiple congresses',
+      'Beyond a normal email: every message becomes a gateway to an interactive scientific experience.',
+      'Creates a richer HCP experience: combines email, interactive science, motion and digital touchpoints into one connected journey. ',
+      'Responsive to the HCP.',
     ],
   },
   {
     id: 9,
-    name: 'Lightbox Photo Moment',
-    type: 'Event Activation',
+    name: 'AbbVie Newsroom – Hematology Treatment Update',
+    type: ' Digital Video Experience / AI Presenter / Internal Communication / HCP Email Content',
     objective:
-      'Create a branded photo opportunity that HCPs can take with them, extending brand recall beyond the event.',
+      'Create a recognizable AbbVie news format that delivers important therapy-line, treatment, clinical, and scientific updates in a fast, engaging way for both AbbVie teams and HCPs.',
     scenario:
-      'A professionally lit photo backdrop with a branded frame invites HCPs to take a photo. They receive a printed or digital copy with a subtle brand overlay. The moment is quick, fun, and creates a positive association.',
+      'A branded AbbVie newsroom opens with a headline such as “Hematology Treatment Update.” A real AbbVie team member, medical expert, or AI presenter delivers the update in a short TV-news format. Supporting screens visualize the relevant therapy, study, indication, mechanism, or new data. Each episode focuses on one key update, ending with a concise takeaway and a link/QR to explore the full scientific information.',
     bullets: [
-      'Tangible takeaway — extends recall after the event',
-      'Quick and low-friction — works even in short booth visits',
-      'Social sharing amplifies reach beyond the congress floor',
+      'Makes updates easy to consume instead of relying on long emails or presentations.',
+      'Creates a repeatable content platform for VENCLYXTO®, TEPKINLY®, and other hematology updates.',
+      'Flexible for different audiences: internal team education, HCP emails, event screens, or digital follow-up.',
     ],
   },
   {
     id: 10,
-    name: 'Interactive Floor Projection',
-    type: 'Congress Booth Experience',
+    name: 'AbbVie Hematology Immersive Room Experience',
+    type: 'On-Ground Experience',
     objective:
-      'Use a projected floor display to create an eye-catching, interactive element that draws foot traffic.',
+      'Create an immersive scientific journey that brings the mechanisms of VENCLYXTO® and TEPKINLY® to life through a fully surrounding visual experience.',
     scenario:
-      'A projected display on the booth floor reacts to footsteps — visuals ripple, shift, or reveal content as HCPs walk across. The playful interaction draws curious attendees into the booth space naturally.',
+      'Enter a fully immersive environment where the room becomes the biological world of the therapy.\n For VENCLYXTO®, the journey moves inside the malignant cell to visualize the role of BCL-2 in preventing apoptosis, followed by the effect of VENCLYXTO restoring the apoptotic pathway.\n For TEPKINLY®, the environment transforms into the lymphoma microenvironment, showing CD3+ T cells and CD20+ malignant B cells coming together through epcoritamab to form the immune synapse',
     bullets: [
-      'Strong footfall magnet — visible from a distance',
-      'No device required — engagement is immediate',
-      'Content themes can be swapped per event',
+      'Makes complex mechanisms easier to understand by transforming molecular biology into an immersive visual journey.',
+      'Creates a memorable experience beyond traditional presentations or static content.',
+      'Offers a flexible premium platform that can communicate different therapy stories and scientific updates.',
     ],
   },
   {
     id: 11,
-    name: 'Themed Quiz Kiosk',
-    type: 'Hybrid Engagement',
+    name: 'AbbVie Hematology Scientific Projection Mapping',
+    type: 'Projection Mapping Experience / Premium On-Ground Experience',
     objective:
-      'Engage HCPs with a short, gamified quiz that delivers a personalized takeaway and sparks conversation.',
+      'Create a high-impact scientific storytelling experience that transforms the mechanism of action and treatment journey of VENCLYXTO® and TEPKINLY® into a memorable visual experience for HCPs.',
     scenario:
-      'An HCP sits at a sleek kiosk and answers 5 quick questions on a themed topic. They receive a summary card with their results and a conversation prompt. The gamified format makes the interaction feel distinct from standard booth visits.',
+      'Using high-powered projectors and custom 3D content to transform real-world surfaces into dynamic visual environments, allowing scientific stories, animations, and data to come to life. \n VENCLYXTO® storyline:\n The projection takes HCPs inside the malignant cell, revealing how BCL-2 supports cancer-cell survival. The visual journey shows VENCLYXTO targeting BCL-2, restoring the apoptotic pathway, and leading toward programmed cell death.\n TEPKINLY® storyline:\n The projection visualizes the interaction between CD3+ T cells and CD20+ malignant B cells. The two systems appear separated before epcoritamab creates the connection, forming the immune synapse and enabling T-cell-mediated targeting.\n The experience ends with both therapies presented under the AbbVie hematology portfolio.',
     bullets: [
-      'Gamification — higher engagement than passive content',
-      'Personalized output — HCPs feel the interaction was tailored',
-      'Natural lead-in for field team follow-up',
+      'Turns complex biological mechanisms into intuitive visual stories that are easier for HCPs to understand and remember.',
+      'Creates a premium scientific moment suitable for congresses, launches, and high-value medical events.',
+      'Provides a flexible platform where multiple therapies, updates, or scientific milestones can be communicated through different chapters.',
     ],
   },
   {
     id: 12,
-    name: 'Ambient Sound Sculpture',
-    type: 'Event Activation',
+    name: 'AbbVie Hematology 360° Scientific Tunnel Experience',
+    type: '360° Projection Tunnel / Immersive On-Ground Experience',
     objective:
-      'Use spatial audio and sculptural form to create a calm, curiosity-driven engagement zone within a busy congress.',
+      'Transform complex mechanisms of VENCLYXTO® and TEPKINLY® into an engaging, step-by-step visual journey.',
     scenario:
-      'A semi-enclosed sculptural installation uses directional audio to deliver a themed soundscape. HCPs who step inside experience a brief, immersive audio moment that contrasts with the noise of the congress floor, creating a memorable pause.',
+      'HCPs move through different scientific chapters:\n 1- VENCLYXTO®: Inside the malignant cell → BCL-2 inhibition and release of the apoptotic pathway → restoration of programmed cell death (apoptosis).\n 2- TEPKINLY®: Inside the lymphoma microenvironment → CD3 × CD20 engagement through epcoritamab → formation of the immune synapse and T-cell–mediated killing.',
     bullets: [
-      'Sensory contrast — stands out in a noisy congress environment',
-      'Brief and restorative — respects HCPs\' time and energy',
-      'Distinctive format — differentiates from standard booth setups',
+      'Makes complex science easier to understand through immersive storytelling.',
+      'Creates an engaging experience through movement and discovery.',
+      'Provides a premium platform for congresses and medical events.',
     ],
-  }, */
+  }, 
 ];
