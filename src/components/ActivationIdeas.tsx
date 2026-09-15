@@ -126,7 +126,7 @@ export default function ActivationIdeas() {
         </Reveal>
         <Reveal delay={100}>
           <p className="mt-4 text-base sm:text-lg leading-relaxed text-white/60">
-            Twelve high-level, practical concepts — tap any card to explore the details.
+            Twelve high-level, practical concepts, tap any card to explore the details.
           </p>
         </Reveal>
         <div className="mt-10 space-y-4">

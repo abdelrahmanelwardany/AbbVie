@@ -19,7 +19,7 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-6 pt-20 pb-16 sm:pt-28 sm:pb-24">
         <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.3em] text-white/50">
-          Ebers — Digital &amp; Immersive Experiences
+          Ebers - Digital &amp; Immersive Experiences
         </p>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]">
           Proposal for AbbVie

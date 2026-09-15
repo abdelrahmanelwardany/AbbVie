@@ -32,7 +32,7 @@ export default function ImagePlaceholder({
           isDark ? 'text-white/40' : 'text-gray-400'
         }`}
       >
-        Image placeholder — {label}
+        Image placeholder, {label}
       </span>
     </div>
   );

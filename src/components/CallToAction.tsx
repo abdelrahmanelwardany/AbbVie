@@ -17,7 +17,7 @@ export default function CallToAction() {
         </h2>
         <p className="mt-6 text-lg sm:text-xl leading-relaxed text-white/80 max-w-2xl mx-auto">
           We'd love to walk you through these concepts and tailor them to your team's
-          needs — let's find 30 minutes to discuss next steps.
+          needs, let's find 30 minutes to discuss next steps.
         </p>
         <a
           href="https://wa.me/971582618494"

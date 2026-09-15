@@ -7,62 +7,20 @@ export type ActivationIdea = {
   bullets: string[];
 };
 
-// Replace this array with real content later — the layout component reads from this data.
+// Replace this array with real content later. The layout component reads from this data.
 export const activationIdeas: ActivationIdea[] = [
   {
-    id: 1,
-    name: 'Shooting game: Hit the Target',
-    type: 'Interactive Web Experience',
+    id: 9,
+    name: 'AbbVie Newsroom – Hematology Treatment Update',
+    type: ' Digital Video Experience / AI Presenter / Internal Communication / HCP Email Content',
     objective:
-      'Make Venetoclax’s BCL-2 mechanism simple, memorable, and interactive',
+      'Create a recognizable AbbVie news format that delivers important therapy-line, treatment, clinical, and scientific updates in a fast, engaging way for both AbbVie teams and HCPs.',
     scenario:
-      'The HCP enters a 60-second game where cancer cells appear protected by BCL-2 shields. The HCP uses Venetoclax to target and block these shields. Once BCL-2 is blocked, the protection disappears and the cancer cell undergoes programmed cell death. Each successful target earns a point, turning the MOA into a simple “block → unprotect → kill” experience.',
+      'A branded AbbVie newsroom opens with a headline such as “Hematology Treatment Update.” A real AbbVie team member, medical expert, or AI presenter delivers the update in a short TV-news format. Supporting screens visualize the relevant therapy, study, indication, mechanism, or new data. Each episode focuses on one key update, ending with a concise takeaway and a link/QR to explore the full scientific information.',
     bullets: [
-      'Interactive MOA learning: Turn BCL-2 inhibition into a simple, hands-on game.',
-      'Easy to remember: Reinforce the core message — Block → Unprotect → Kill.',
-      'Engagement: Challenge HCPs to block as many BCL-2 shields as possible within 60 seconds.',
-    ],
-  },
-  {
-    id: 2,
-    name: 'Build the Connection - AR',
-    type: 'AR Mechanism Experience',
-    objective:
-      'Visualize Epkinly’s bispecific mechanism by showing how it connects the T-cell to the cancer B-cell and activates the immune response.',
-    scenario:
-      'The HCP or patient scans a QR code and a 3D cancer B-cell appears through their phone. For the HCP, the experience zooms in to show Epkinly binding simultaneously to CD20 on the cancer cell and CD3 on the T-cell, creating a bridge that activates the T-cell to destroy the target. For the patient, the same mechanism is simplified into a clear visual story: Epkinly acts as a “bridge” that brings the body’s immune cells directly to the abnormal cells.',
-    bullets: [
-      'Visual MOA learning: Bring Epkinly’s T-cell/B-cell mechanism to life through an interactive AR experience.',
-      'Simple & memorable: Communicate Epkinly as a “bridge” connecting immune cells to cancer cells.',
-      'Flexible engagement: Adapt the same experience for both HCP education and patient understanding.',
-    ],
-  },
-  {
-    id: 3,
-    name: 'Ask the Mechanism - AI Hologram',
-    type: 'AI Virtual Hematologist',
-    objective:
-      'Create an interactive AI-powered holographic hematologist that provides HCPs with quick, conversational access to key Epkinly information. ',
-    scenario:
-      'At the event, a holographic hematologist welcomes the HCP and answers pre-selected or spoken questions such as “How does Epkinly work?”, “What are the key clinical data?”, “What are the main safety considerations?”, or “Which patients may benefit from Epkinly?” The avatar provides concise, referenced answers based on approved Epkinly information, creating a natural and engaging clinical conversation. ',
-    bullets: [
-      'AI-powered access: Give HCPs instant, conversational access to key Epkinly information.',
-      'Trusted clinical support: Provide concise, referenced answers across MOA, evidence, safety, and patient considerations.',
-      'Interactive engagement: Turn scientific Q&A into a more natural and engaging HCP experience.',
-    ],
-  },
-  {
-    id: 4,
-    name: 'The Invisible Battle - Hologram',
-    type: 'Hologram Experience',
-    objective:
-      'Reveal the invisible battle happening between the immune system and cancer through an immersive holographic visualization of Epkinly’s MOA.',
-    scenario:
-      'The hologram takes the HCP inside the tumor environment, where cancer B-cells move freely while T-cells remain separated from their targets. Epkinly enters the scene and acts as a bridge between them, bringing the T-cell directly to the cancer cell. The T-cell becomes activated and attacks the target, turning an invisible biological process into a visible battle.',
-    bullets: [
-      'Immersive MOA learning: Take HCPs inside the tumor to visualize Epkinly’s mechanism in action.',
-      'Simple & memorable: Show the core story — Bridge → Activate → Attack.',
-      'Make the invisible visible: Turn the interaction between T-cells and cancer B-cells into an engaging holographic experience.',
+      'Makes updates easy to consume instead of relying on long emails or presentations.',
+      'Creates a repeatable content platform for VENCLYXTO®, TEPKINLY®, and other hematology updates.',
+      'Flexible for different audiences: internal team education, HCP emails, event screens, or digital follow-up.',
     ],
   },
   {
@@ -80,19 +38,79 @@ export const activationIdeas: ActivationIdea[] = [
     ],
   },
   {
+    id: 3,
+    name: 'Ask the Mechanism - AI Hologram',
+    type: 'AI Virtual Hematologist',
+    objective:
+      'Create an interactive AI-powered holographic hematologist that provides HCPs with quick, conversational access to key TEPKINLY information. ',
+    scenario:
+      'At the event, a holographic hematologist welcomes the HCP and answers pre-selected or spoken questions such as “How does TEPKINLY work?”, “What are the key clinical data?”, “What are the main safety considerations?”, or “Which patients may benefit from TEPKINLY?” The avatar provides concise, referenced answers based on approved TEPKINLY information, creating a natural and engaging clinical conversation. ',
+    bullets: [
+      'AI-powered access: Give HCPs instant, conversational access to key TEPKINLY information.',
+      'Trusted clinical support: Provide concise, referenced answers across MOA, evidence, safety, and patient considerations.',
+      'Interactive engagement: Turn scientific Q&A into a more natural and engaging HCP experience.',
+    ],
+  },
+  {
+    id: 4,
+    name: 'The Invisible Battle - Hologram',
+    type: 'Hologram Experience',
+    objective:
+      'Reveal the invisible battle happening between the immune system and cancer through an immersive holographic visualization of TEPKINLY’s MOA.',
+    scenario:
+      'The hologram takes the HCP inside the tumor environment, where cancer B-cells move freely while T-cells remain separated from their targets. TEPKINLY enters the scene and acts as a bridge between them, bringing the T-cell directly to the cancer cell. The T-cell becomes activated and attacks the target, turning an invisible biological process into a visible battle.',
+    bullets: [
+      'Immersive MOA learning: Take HCPs inside the tumor to visualize TEPKINLY’s mechanism in action.',
+      'Simple & memorable: Show the core story, Bridge → Activate → Attack.',
+      'Make the invisible visible: Turn the interaction between T-cells and cancer B-cells into an engaging holographic experience.',
+    ],
+  },
+   {
     id: 6,
     name: 'Omnichannel Content Suite',
     type: 'Content Creation',
     objective:
       'Extend the impact of the event by transforming the core scientific stories of both brands into content that stays with HCPs across their digital journey.',
     scenario:
-      'The key event experiences are transformed into a connected content ecosystem that continues the conversation after the event. Short MOA videos bring the science back to the HCP’s inbox or WhatsApp, visual one-page summaries provide an easy reference during or after rep visits, and a post-event email journey keeps the story moving from MOA → Evidence → Clinical Case → AI Experience.\n\nOne core content story, adapted across multiple touchpoints — keeping both brands relevant long after the event ends.',
+      'The key event experiences are transformed into a connected content ecosystem that continues the conversation after the event. Short MOA videos bring the science back to the HCP’s inbox or WhatsApp, visual one-page summaries provide an easy reference during or after rep visits, and a post-event email journey keeps the story moving from MOA → Evidence → Clinical Case → AI Experience.\n\nOne core content story, adapted across multiple touchpoints, keeping both brands relevant long after the event ends.',
     bullets: [
       'One story, every channel: Transform core scientific content into videos, GIFs, social posts, emails, WhatsApp, web, and rep materials.',
       'Extend HCP engagement: Keep the conversation going beyond the event with a connected digital content journey.',
       'Maximum content value: Repurpose each core asset across multiple touchpoints for consistent, long-term brand visibility.',
     ],
   },
+  
+  {
+    id: 1,
+    name: 'Shooting game: Hit the Target',
+    type: 'Interactive Web Experience',
+    objective:
+      'Make Venetoclax’s BCL-2 mechanism simple, memorable, and interactive',
+    scenario:
+      'The HCP enters a 60-second game where cancer cells appear protected by BCL-2 shields. The HCP uses Venetoclax to target and block these shields. Once BCL-2 is blocked, the protection disappears and the cancer cell undergoes programmed cell death. Each successful target earns a point, turning the MOA into a simple “block → unprotect → kill” experience.',
+    bullets: [
+      'Interactive MOA learning: Turn BCL-2 inhibition into a simple, hands-on game.',
+      'Easy to remember: Reinforce the core message, Block → Unprotect → Kill.',
+      'Engagement: Challenge HCPs to block as many BCL-2 shields as possible within 60 seconds.',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Build the Connection - AR',
+    type: 'AR Mechanism Experience',
+    objective:
+      'Visualize TEPKINLY’s bispecific mechanism by showing how it connects the T-cell to the cancer B-cell and activates the immune response.',
+    scenario:
+      'The HCP or patient scans a QR code and a 3D cancer B-cell appears through their phone. For the HCP, the experience zooms in to show TEPKINLY binding simultaneously to CD20 on the cancer cell and CD3 on the T-cell, creating a bridge that activates the T-cell to destroy the target. For the patient, the same mechanism is simplified into a clear visual story: TEPKINLY acts as a “bridge” that brings the body’s immune cells directly to the abnormal cells.',
+    bullets: [
+      'Visual MOA learning: Bring TEPKINLY’s T-cell/B-cell mechanism to life through an interactive AR experience.',
+      'Simple & memorable: Communicate TEPKINLY as a “bridge” connecting immune cells to cancer cells.',
+      'Flexible engagement: Adapt the same experience for both HCP education and patient understanding.',
+    ],
+  },
+  
+  
+ 
   {
     id: 7,
     name: 'INSIDE THE BCL-2 POCKET - AR',
@@ -113,7 +131,7 @@ export const activationIdeas: ActivationIdea[] = [
     objective:
       'Turn the email campaign from a standard communication sequence into a series of short digital experiences, making AbbVie’s hematology communication feel more interactive, and memorable.',
     scenario:
-      'Each email is only the entry point. Instead of opening to a long medical message, the HCP receives one strong question, visual, or scientific hook related to either VENCLYXTO® or TEPKINLY®.\n The CTA opens a lightweight branded micro-experience or a landing page where the HCP can interact with the science—for example:\n rotate a BCL-2 structure, reveal the apoptosis pathway, connect CD3 to CD20, explore the immune synapse, move through the step-up/ramp-up journey, or unlock clinical evidence.\n ',
+      'Each email is only the entry point. Instead of opening to a long medical message, the HCP receives one strong question, visual, or scientific hook related to either VENCLYXTO® or TEPKINLY®.\n The CTA opens a lightweight branded micro-experience or a landing page where the HCP can interact with the science, for example:\n rotate a BCL-2 structure, reveal the apoptosis pathway, connect CD3 to CD20, explore the immune synapse, move through the step-up/ramp-up journey, or unlock clinical evidence.\n ',
     bullets: [
       'Beyond a normal email: every message becomes a gateway to an interactive scientific experience.',
       'Creates a richer HCP experience: combines email, interactive science, motion and digital touchpoints into one connected journey. ',
@@ -121,22 +139,8 @@ export const activationIdeas: ActivationIdea[] = [
     ],
   },
   {
-    id: 9,
-    name: 'AbbVie Newsroom – Hematology Treatment Update',
-    type: ' Digital Video Experience / AI Presenter / Internal Communication / HCP Email Content',
-    objective:
-      'Create a recognizable AbbVie news format that delivers important therapy-line, treatment, clinical, and scientific updates in a fast, engaging way for both AbbVie teams and HCPs.',
-    scenario:
-      'A branded AbbVie newsroom opens with a headline such as “Hematology Treatment Update.” A real AbbVie team member, medical expert, or AI presenter delivers the update in a short TV-news format. Supporting screens visualize the relevant therapy, study, indication, mechanism, or new data. Each episode focuses on one key update, ending with a concise takeaway and a link/QR to explore the full scientific information.',
-    bullets: [
-      'Makes updates easy to consume instead of relying on long emails or presentations.',
-      'Creates a repeatable content platform for VENCLYXTO®, TEPKINLY®, and other hematology updates.',
-      'Flexible for different audiences: internal team education, HCP emails, event screens, or digital follow-up.',
-    ],
-  },
-  {
     id: 10,
-    name: 'AbbVie Hematology Immersive Room Experience',
+    name: 'Premium: AbbVie Hematology Immersive Room Experience',
     type: 'On-Ground Experience',
     objective:
       'Create an immersive scientific journey that brings the mechanisms of VENCLYXTO® and TEPKINLY® to life through a fully surrounding visual experience.',
@@ -150,7 +154,7 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 11,
-    name: 'AbbVie Hematology Scientific Projection Mapping',
+    name: 'Premium: AbbVie Hematology Scientific Projection Mapping',
     type: 'Projection Mapping Experience / Premium On-Ground Experience',
     objective:
       'Create a high-impact scientific storytelling experience that transforms the mechanism of action and treatment journey of VENCLYXTO® and TEPKINLY® into a memorable visual experience for HCPs.',
@@ -164,7 +168,7 @@ export const activationIdeas: ActivationIdea[] = [
   },
   {
     id: 12,
-    name: 'AbbVie Hematology 360° Scientific Tunnel Experience',
+    name: 'Premium: AbbVie Hematology 360° Scientific Tunnel Experience',
     type: '360° Projection Tunnel / Immersive On-Ground Experience',
     objective:
       'Transform complex mechanisms of VENCLYXTO® and TEPKINLY® into an engaging, step-by-step visual journey.',

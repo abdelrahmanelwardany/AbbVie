@@ -5,9 +5,9 @@ import Reveal from './Reveal';
 import needImage from '../../imgs/need.png';
 
 const points = [
-  'HCP engagement today relies mainly on email outreach and standard event activities — formats that are increasingly competing for attention in a crowded information landscape.',
+  'HCP engagement today relies mainly on email outreach and standard event activities, formats that are increasingly competing for attention in a crowded information landscape.',
   'There is a clear opportunity to introduce more memorable, interactive engagement formats at congresses and HCP events, especially within the Hematology therapeutic area.',
-  'Growing interest in experiential technologies — such as holograms, AR, and immersive 3D — signals readiness for bolder, more tactile engagement approaches.',
+  'Growing interest in experiential technologies, such as holograms, AR, and immersive 3D, signals readiness for bolder, more tactile engagement approaches.',
   'At this stage, engagement approaches that do not require sharing detailed product or clinical materials are preferred, keeping interactions high-level and brand-led.',
 ];
 
@@ -32,7 +32,7 @@ export default function StatementOfNeed() {
             Today's healthcare professional engagement landscape is saturated with
             conventional touchpoints. To stand out and create lasting recall, AbbVie's
             Hematology team needs activation concepts that are experiential, memorable,
-            and practical to deploy at congresses and HCP events — without relying on
+            and practical to deploy at congresses and HCP events, without relying on
             detailed clinical or product content at this stage.
           </p>
         </Reveal>

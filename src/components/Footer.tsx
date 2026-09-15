@@ -11,7 +11,7 @@ export default function Footer() {
             className="h-8 w-8 rounded-lg object-contain"
           />
           <p className="text-sm text-white/50">
-            This proposal was developed by Ebers — Immersive Digital Experiences
+            This proposal was developed by Ebers, Immersive Digital Experiences
           </p>
         </div>
         <p className="text-xs text-white/30 uppercase tracking-wider">

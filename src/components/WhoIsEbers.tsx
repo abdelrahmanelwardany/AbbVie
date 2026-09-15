@@ -21,7 +21,7 @@ export default function WhoIsEbers() {
             <p>
               Our work spans virtual congress experiences, augmented reality product
               demonstrations, 3D anatomical visualizations, and interactive event
-              activations — all designed to make complex science accessible and
+              activations, all designed to make complex science accessible and
               memorable. We have delivered projects for AstraZeneca, Amgen, Merck,
               Sanofi, Roche, Organon, Janssen, and Abbott.
             </p>
