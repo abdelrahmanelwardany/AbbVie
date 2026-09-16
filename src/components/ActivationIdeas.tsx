@@ -10,7 +10,7 @@ import thirdImage from '../../imgs/third.jpeg';
 import fourthImage from '../../imgs/foruth.png';
 import fifthImage from '../../imgs/fifth.jpeg';
 import sixthImage from '../../imgs/sixth.jpeg';
-import seventhImage from '../../imgs/seventh.jpeg';
+import seventhImage from '../../imgs/seventh.png';
 import eighthImage from '../../imgs/eight.jpeg';
 import ninthImage from '../../imgs/ninth.jpeg';
 import tenthImage from '../../imgs/tenth.jpeg';
@@ -76,7 +76,7 @@ function IdeaCard({ idea, index }: { idea: ActivationIdea; index: number }) {
             </div>
 
             <div className="mt-4 pt-4 border-t border-gray-100">
-              <p className="text-base leading-relaxed text-gray-700">
+              <p className="text-base leading-relaxed text-gray-700 whitespace-pre-line">
                 <span className="font-semibold text-brand-dark">Scenario: </span>
                 {idea.scenario}
               </p>

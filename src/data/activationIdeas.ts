@@ -48,7 +48,7 @@ export const activationIdeas: ActivationIdea[] = [
     name: 'Shooting game: Hit the Target',
     type: 'Interactive Web Experience',
     scenario:
-      'The HCP enters a 60-second game where cancer cells appear protected by BCL-2 shields. The HCP uses Venetoclax to target and block these shields. Once BCL-2 is blocked, the protection disappears and the cancer cell undergoes programmed cell death. Each successful target earns a point, turning the MOA into a simple “block → unprotect → kill” experience.',
+      'The HCP enters a 60-second game where cancer cells appear protected by BCL-2 shields. The HCP uses Venetoclax to target and block these shields. Once BCL-2 is blocked, the protection disappears and the cancer cell undergoes programmed cell death. Each successful target earns a point, turning the MOA into a simple “block → unprotect → kill” experience.\n This idea could be delivered through email or WhatsApp, or even displayed on a screen at events.',
   },
   {
     id: 2,
